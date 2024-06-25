@@ -2,66 +2,23 @@
     margin: 0;
     box-sizing: border-box ;
 }
-.navbar ul{
-    background-color: #A0937D;
-    list-style-type: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 5px 5%;
-    display: flex  ;
-    align-items: center;
-    z-index: 100;
-    max-height:250px;
-}
-#full-name{
+
+#name{
     font-family:Montserrat ;
-    width: 700px;
+    font-size: 700;
 }
 
 body{
     background-color:#E7D4B5;
 }
-.navbar a{
-    font-family:Montserrat ;
-    padding: 20px;
-    display: block;
-    text-decoration: none;
-    color: white;
-    align-self: end;
-}
-.navbar a:hover{
-    color: #F6E6CB;
-    font-size: 1.25em;
-    
-}
-.navbar li{
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-}
-.ctn{
-    border: 10px solid #254336;
-    display: block;
-    position: absolute;
-    transform: translate(200px,-45%);
-    top: 50%;
-    left: 50%;
-    height: 550px;
-    width: 800px;
-    border-radius: 1800px  0 0 1800px;
 
-    
-}
 #photo-me{
     height: 450px;
     border: black solid 7px;
     border-radius: 2000px 1000px 0 1800px;
     position: relative;
     transform: translate(50px,40px);
-    
+    visibility: ;
 }
 .title{
     border: 1px solid black hidden;
@@ -89,6 +46,7 @@ body{
     height: ;
     color: white;
     border-radius: 1800px  1800px 1800px 1800px;
+    visibility: hidden;
 }
 .contact-me :hover{
     font-size: 1.25em;
@@ -130,13 +88,13 @@ body{
 }
 #bass2{
     height: 250px;
-    top: 40%;
+    top: 50%;
     left: 30%;
     position: absolute;
 }
 #varo1{
     height: 250px;
-    top: 40%;
+    top: 50%;
     left: 5%;
     position: absolute;
 }
@@ -163,8 +121,29 @@ body{
     top: 75%;
     left: 65%;
     position: absolute;
+    transform: translate();
 }
+#profile__image{
+    height: 400px;
 }
+.profile__details{
+    font-size: 25px;
+}
+.ctn{
+    border: 10px solid #254336;
+    display: block;
+    position: absolute;
+    transform: translate(200px,-45%);
+    top: 50%;
+    left: 50%;
+    height: 550px;
+    width: 800px;
+    border-radius: 1800px  0 0 1800px;
+
+    
+}
+
+
 
 
 
