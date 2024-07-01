@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    box-sizing: border-box ;
+}
+.navbar ul{
+    background-color: #A0937D;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 5%;
+    display: flex  ;
+    align-items: center;
+    z-index: 100;
+    max-height:250px;
+}
+#full-name{
+    font-family:Montserrat ;
+    width: 700px;
+}
+
+body{
+    background-color:#E7D4B5;
+}
+.navbar a{
+    font-family:Montserrat ;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    align-self: end;
+}
+.navbar a:hover{
+    color: #F6E6CB;
+    font-size: 1.25em;
+    
+}
+.navbar li{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.ctn{
+    border: 10px solid #254336;
+    display: block;
+    position: absolute;
+    transform: translate(200px,-45%);
+    top: 50%;
+    left: 50%;
+    height: 550px;
+    width: 800px;
+    border-radius: 1800px  0 0 1800px;
+
+    
+}
+#photo-me{
+    height: 450px;
+    border: black solid 7px;
+    border-radius: 2000px 1000px 0 1800px;
+    position: relative;
+    transform: translate(50px,40px);
+    
+}
+.title{
+    border: 1px solid black hidden;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-family:Montserrat ;
+    font-weight: 750 ;
+    font-size: 50px;
+}
+.contact-me{
+    border: 1px solid #254336 ;
+    background-color: #254336;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-family:Montserrat ;
+    font-weight: 450 ;
+    font-size: 30px;
+    transform: translate(0px,200px);
+    text-decoration: none;
+    padding: 20px;
+    height: ;
+    color: white;
+    border-radius: 1800px  1800px 1800px 1800px;
+}
+.contact-me :hover{
+    font-size: 1.25em;
+}
+
+.mail {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #482121;
+    font-family:Montserrat ;
+    font-size: 50px;
+    text-decoration: none;
+}
+.mail a {
+    text-decoration: none;
+    color: #482121;
+}
+.mail a:hover{
+    font-size: 1.25em;
+    color: #254336;
+}
+.my-experience{
+    border: 1px solid black hidden;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-family:Montserrat ;
+    font-weight: 750 ;
+    font-size: 50px;
+    transform: translate(-300px,-200px);
+}
+#bass{
+    height: 250px;
+    top: 20%;
+    left: 55%;
+    position: absolute;
+}
+#bass2{
+    height: 250px;
+    top: 40%;
+    left: 30%;
+    position: absolute;
+}
+#varo1{
+    height: 250px;
+    top: 40%;
+    left: 5%;
+    position: absolute;
+}
+.programming{
+    border: 1px solid black hidden;
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    font-family:Montserrat ;
+    font-weight: 750 ;
+    font-size: 50px;
+    transform: translate(-300px,-200px);
+    width: 1000px;;
+}
+#ccc{
+    height: 200px;
+    top: 75%;
+    left: 50%;
+    position: absolute;
+}
+#sss{
+    height: 250px;
+    top: 75%;
+    left: 65%;
+    position: absolute;
+}
+}
+
+
+
+
